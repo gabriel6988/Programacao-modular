@@ -19,4 +19,11 @@ public class CalculadoraTest{
         assertEquals(14, calc.divi(28, 2));
         assertEquals(8, calc.divi(16, 2));
     }
+    @Test
+    public void testSubtração(){
+        Calculadora calc = new Calculadora();
+        assertEquals(11, calc.sub(22, 11));
+        assertEquals(5, calc.sub(7, 2));
+        assertEquals(-2, calc.sub(0, 2));
+    } 
 }
