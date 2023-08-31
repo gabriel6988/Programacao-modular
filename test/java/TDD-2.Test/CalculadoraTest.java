@@ -26,4 +26,11 @@ public class CalculadoraTest{
         assertEquals(5, calc.sub(7, 2));
         assertEquals(-2, calc.sub(0, 2));
     } 
+    @Test
+    public void testexponenciacao(){
+        Calculadora calc = new Calculadora();
+        assertEquals(27, calc.exponenciacao(3, 3));
+        assertEquals(1, calc.exponenciacao(3, 0));
+        assertEquals(3, calc.exponenciacao(3, 1));
+    }
 }
