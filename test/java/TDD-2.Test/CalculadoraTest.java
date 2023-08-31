@@ -13,4 +13,10 @@ public class CalculadoraTest{
         assertEquals(0, calc.multi(3, 0));
         assertEquals(3, calc.multi(3, 1));
     }
+    @Test
+    public void testDivisao(){
+        Calculadora calc = new Calculadora();
+        assertEquals(14, calc.divi(28, 2));
+        assertEquals(8, calc.divi(16, 2));
+    }
 }
