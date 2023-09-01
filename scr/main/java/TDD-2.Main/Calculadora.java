@@ -16,4 +16,15 @@ public class Calculadora{
         int resultInt = (int) resultDouble;
         return resultInt;
     }
+    public int raizQuadrada(int x){
+        if(x < 0) {
+            return -1;
+        }
+        else {
+            double resultDouble = Math.sqrt(x);
+            int resultInt = (int) resultDouble;
+            return resultInt;
+        }
+    }
+    
 }
