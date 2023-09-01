@@ -40,4 +40,11 @@ public class CalculadoraTest{
         assertEquals(2, calc.raizQuadrada(4));
         assertEquals(12, calc.raizQuadrada(144));
     }
+    @Test
+    public void testeLog(){
+        Calculadora calc = new Calculadora(); 
+        assertEquals(2, calc.logaritmo(10, 100));
+		assertEquals(4, calc.logaritmo(3, 81));
+		assertEquals(7, calc.logaritmo(2, 128));
+    }
 }
