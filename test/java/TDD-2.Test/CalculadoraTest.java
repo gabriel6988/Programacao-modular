@@ -20,7 +20,7 @@ public class CalculadoraTest{
         assertEquals(8, calc.divi(16, 2));
     }
     @Test
-    public void testSubtração(){
+    public void testSubtracao(){
         Calculadora calc = new Calculadora();
         assertEquals(11, calc.sub(22, 11));
         assertEquals(5, calc.sub(7, 2));
@@ -32,5 +32,12 @@ public class CalculadoraTest{
         assertEquals(27, calc.exponenciacao(3, 3));
         assertEquals(1, calc.exponenciacao(3, 0));
         assertEquals(3, calc.exponenciacao(3, 1));
+    }
+    @Test
+    public void testeRaiz(){
+        Calculadora calc = new Calculadora();
+        assertEquals(8, calc.raizQuadrada(64));
+        assertEquals(2, calc.raizQuadrada(4));
+        assertEquals(12, calc.raizQuadrada(144));
     }
 }
