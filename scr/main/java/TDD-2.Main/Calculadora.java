@@ -27,8 +27,8 @@ public class Calculadora{
         }
     }
     
-	public double logaritmo(double base, double valor) {
-		return Math.log(valor) / Math.log(base); 
-	}
+    public double logaritmo(double base, double valor) {
+	return Math.log(valor) / Math.log(base); 
+    }
     
 }
