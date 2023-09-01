@@ -44,7 +44,7 @@ public class CalculadoraTest{
     public void testeLog(){
         Calculadora calc = new Calculadora(); 
         assertEquals(2, calc.logaritmo(10, 100));
-		assertEquals(4, calc.logaritmo(3, 81));
-		assertEquals(7, calc.logaritmo(2, 128));
+	assertEquals(4, calc.logaritmo(3, 81));
+	assertEquals(7, calc.logaritmo(2, 128));
     }
 }
